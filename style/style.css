@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+.container {
+  margin: 123px 120px;
+}
+
+.text-small {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.flex > div {
+  flex: 1;
+  background: #ffffff;
+  box-shadow: 4px 8px 24px rgba(204, 204, 204, 0.25);
+  height: 171px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 266px 553px 266px;
+}
+.grid .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.grid .paragraph {
+  background: #ffffff;
+  border: 1px solid #2159ab;
+  padding: 16px;
+}
+.grid .paragraph .name {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+.grid .paragraph .dim {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #666666;
+}
+.grid .paragraph .bolder {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #8f8f8f;
+}
+.grid .paragraph h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 16px;
+  color: #000000;
+}
+.grid .paragraph .small {
+  margin-top: 27px;
+  text-align: right;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #666666;
+}
+.grid .paragraph .time {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #666666;
+  margin-top: 110px;
+  text-align: right;
+}
+
+.gallary-section {
+  margin-top: 64px;
+}
+.gallary-section .heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.gallary-section .images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.section-paragraph h3 {
+  margin-top: 64px;
+  margin-bottom: 24px;
+}
+.section-paragraph p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #666666;
+}
+.section-paragraph p:not(:last-child) {
+  margin-bottom: 16px;
+}
+.section-paragraph p:last-child {
+  width: 50%;
+}
+
+.last-section {
+  margin-top: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 116px;
+}
+.last-section .description h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+  color: #1a1a1a;
+  margin-bottom: 24px;
+}
+.last-section .description p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.015em;
+  color: #666666;
+}/*# sourceMappingURL=style.css.map */
